@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9PT3SPZF9M"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-9PT3SPZF9M');
+    </script>
+
+
+<style type="text/css">
+    header, section, footer, aside, nav, article, figure, figcaption {display: block;}
+
+    body 
+    {
+
+        background-image: url("Images/cnp.jpg");
+      
+    }
+    </style>
+
+
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contact Form</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Contact form for Congaree National Park">
+    <meta name="keywords" content="Congaree National Park, Contact, Form">
+    <meta name="author" content="Malachi Johnson">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <h1>Contact Form</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="secondPage.html">Events & Programs</a></li>
+                <li><a href="form.html">Contact Page</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="card">
+            <form method="POST" action="https://wp.zybooks.com/form-viewer.php" enctype="multipart/form-data">
+                <div>
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" required>
+                </div>
+                <div>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="phoneNumber">Phone Number:</label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber" required>
+                </div>
+                <div>
+                    <label for="about">Message:</label>
+                    <textarea id="about" name="about" cols="50" rows="3"></textarea>
+                </div>
+                <div>
+                    <label for="picture">Upload Photo:</label>
+                    <input type="file" id="picture" name="picture">
+                </div>
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </section>
+
+        
+    </main>
+
+    <footer>
+        <ul>
+            <li><img src="Images/Copyright.png" alt="Copyright" width="40" height="40"></li>
+            <li><img src="Images/Insta.jpg" alt="Instagram" width="40" height="40"></li>
+            <li>Contact Info</li>
+        </ul>
+    </footer>
+</body>
+</html>

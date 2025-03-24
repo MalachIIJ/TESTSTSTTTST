@@ -1,0 +1,147 @@
+
+* {
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    box-sizing: border-box; /* Ensure consistent box sizing */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Set font */
+    line-height: 1.6; /* Improve readability */
+    color: #333; /* Set text color */
+    background-color: #f9f9f9; /* Set background color */
+    padding: 20px; /* Add padding around body */
+}
+
+/* Header Styles */
+header {
+    text-align: center; /* Center header content */
+    margin-bottom: 20px; /* Add spacing below header */
+    background-color: #2c3e50; /* Dark blue-gray background */
+    padding: 20px; /* Add padding inside header */
+    border-radius: 10px; /* Round edges */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    color: #fff; /* Set text color to white */
+}
+
+header h1 {
+    font-size: 2.5rem; /* Set title size */
+    margin-bottom: 10px; /* Add spacing below title */
+    font-weight: 600; /* Make text semi-bold */
+}
+
+header h2 {
+    font-size: 1.8rem; /* Set subtitle size */
+    font-weight: 500; /* Make text medium weight */
+}
+
+/* Navigation Styles */
+nav {
+    margin: 20px 0; /* Add spacing above and below */
+    text-align: center; /* Center align text */
+    background-color: #34495e; /* Slightly lighter blue-gray */
+    padding: 10px; /* Add padding inside nav */
+    border-radius: 10px; /* Round edges */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+nav ul {
+    list-style: none; /* Remove bullets */
+    padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin: 0 15px; /* Add spacing between items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline */
+    color: #fff; /* Set text color to white */
+    font-weight: bold; /* Make text bold */
+    transition: color 0.3s ease; /* Add smooth color transition */
+}
+
+nav ul li a:hover {
+    color: #3498db; /* Change color on hover */
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 30px; /* Add spacing below sections */
+    background-color: #fff; /* Set background color */
+    padding: 20px; /* Add padding inside section */
+    border-radius: 10px; /* Round edges */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+section h3 {
+    font-size: 1.5rem; /* Set heading size */
+    color: #2c3e50; /* Dark blue-gray color */
+    margin-bottom: 10px; /* Add spacing below heading */
+    font-weight: 600; /* Make text semi-bold */
+}
+
+section p {
+    font-size: 1rem; /* Set paragraph size */
+    color: #555; /* Set text color */
+    margin-bottom: 15px; /* Add spacing below paragraphs */
+    line-height: 1.8; /* Improve readability */
+}
+
+section img {
+    max-width: 100%; /* Ensure image does not overflow */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove inline spacing */
+    margin: 10px 0; /* Add spacing above and below */
+    border-radius: 8px; /* Round edges */
+}
+
+/* Card Layout */
+.card {
+    background-color: #fff; /* Set background color */
+    padding: 20px; /* Add padding inside card */
+    border-radius: 10px; /* Round edges */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    margin-bottom: 20px; /* Add spacing below cards */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add hover effect */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Move card up slightly */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Add stronger shadow on hover */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center; /* Center align text */
+    margin-top: 30px; /* Add spacing above footer */
+    padding: 20px; /* Add padding inside footer */
+    background-color: #2c3e50; /* Set background color */
+    color: #fff; /* Set text color */
+    border-radius: 10px; /* Round edges */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+footer ul {
+    list-style: none; /* Remove bullets */
+    padding: 0; /* Remove default padding */
+}
+
+footer ul li {
+    display: inline; /* Display list items inline */
+    margin: 0 10px; /* Add spacing between items */
+}
+
+footer ul li img {
+    width: 40px; /* Set icon size */
+    height: 40px; /* Maintain aspect ratio */
+    vertical-align: middle; /* Align icons */
+    transition: transform 0.3s ease; /* Add smooth hover effect */
+}
+
+footer ul li img:hover {
+    transform: scale(1.1); /* Slightly enlarge icons on hover */
+}
+
+
